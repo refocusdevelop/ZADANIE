@@ -2,14 +2,14 @@ package OOP;
 
 /**
  * Jüri Ahhundov Mul ka need tehtud, kuid jagada võid ikka. OOP-is tegin ma eraldi faili klassi, milles realiseerisin konstruktori ja meetodid
-
+* seotud klassiga Chat
  * Loo Chat klass, et käesolev programm saaks normaalselt toimida.
  * On üks reegel: Gitter klassi muuta ei tohi.
  */
 public class Gitter {
 
     public static void main(String[] args) {
-
+                                                    //teeme KONKREETSE chatti
         String toaNimi = "Elutuba";
         Chat chat = new Chat(toaNimi);
 

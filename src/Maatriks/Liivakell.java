@@ -18,7 +18,7 @@ import java.util.Arrays;
  * 0 0 0 0 0 0 0 0 0
  *
  */
-/*public class Liivakell {
+/*public class Liivakell {  TEHTUD
 
     // Lihtsalt abiline meetod, et maatriksit välja printida
     private static void printMaatriks(int[][] laud) {
@@ -32,7 +32,8 @@ import java.util.Arrays;
 
 
 
-/**  UUESTI KOOPIA - ÜLESSANNE TEHTUD
+/**  UUESTI KOOPIA
+ * ÜLESSANNE TEHTUD
  * Loo 9*9 maatriks, millel on kujutatud liivakella. Värvitud ala on number 0 ja
  * värvimata on punkt. Kui ei oska siis joonista esiteks rist ja liigu sealt edasi.
  *

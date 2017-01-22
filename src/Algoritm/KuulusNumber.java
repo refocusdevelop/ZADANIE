@@ -46,13 +46,13 @@ public class KuulusNumber {
                 tulemus.add(naide[i]);
             }
         }
-        System.out.println(tulemus);
+        //System.out.println(tulemus);
 
         int mood = 0;
         for (int i : tulemus) {
 
             int sagedus = Collections.frequency(tulemus, i);
-            System.out.println(sagedus);
+            //System.out.println(sagedus);
 
             if (sagedus == mood) {
                 moodid.add(i);

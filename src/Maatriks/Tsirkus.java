@@ -42,7 +42,9 @@ public class Tsirkus {
         int[][] maatriks = new int[10][10];
         int vastus = 100;
         for (int i = 0; i < maatriks.length; i++) {
-            if (i%2!=0) {
+            if (i%2!=0) {       //paarisarv  //(i%2==0) > jagub kahega %
+
+
                 for (int j = maatriks[i].length-1; j >= 0; j--) {
 
                     maatriks[i][j]= vastus;
