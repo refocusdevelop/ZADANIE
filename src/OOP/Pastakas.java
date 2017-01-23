@@ -8,6 +8,16 @@ public class Pastakas {
     int tint;
     int kulutatudTint;
     int tintiAlles;
+    
+    //mis see teeb, saab käivitada nüüd konstrukorit, otseselt vaja pole, 
+    //kui just ei harjuta siin mingit koodi altpoolt meetoditega
+   // prindib käivitades välja "seesiinonkonstruktorPastakas" ning muud ei puutu!
+    //NB! Kui aga käivitada Kirjanik seotud klass, siis jällegi jääb puutumata see psvm osa!
+
+    public static void main(String[] args) {  
+        System.out.print("seesiinonkonstruktorPastakas");
+   }
+    
     public Pastakas(int tindiKogus) {
         tint = tindiKogus;
         System.out.println(tint);
